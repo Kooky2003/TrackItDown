@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #dadebb;
+    color: #3b6653;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.pomodoro img {
+    height: 40px;
+    width: auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    background-color: var(--color-buttonbg);
+    color: white;
+    overflow: none;
+    align-items: center;
+    gap: 50px;
+}
+
+.section a {
+    display: block;
+    background-color: var(--color-buttonbg);
+    padding: 16px 44px 16px 44px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.section a:active {
+    background-color: var(--color-buttonbg);
+    color: var(--color-text);
+}
+
+.section a:hover:not(.active) {
+    background-color: var(--color-buttonbg);
+    color: #3b6653;
+    border-radius: 4px;
+}
+
+.links {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: right;
+}
+
+.logout {
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.logout button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Additional styles for popup and other elements can be added here */
+
